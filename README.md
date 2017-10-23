@@ -62,3 +62,10 @@ function getComments () {
   })
 }
 ```
+
+Snapshot
+---
+
+> 在请求http://localhost:8081/api/comment/get.action之后得到的数据
+
+![mock-data](http://upload-images.jianshu.io/upload_images/1480597-1252442ffcc1a872.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)

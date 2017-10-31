@@ -11,14 +11,14 @@ Usage
 # 安装依赖
 npm install
 
-# 先执行npm run gulp
-npm run gulp
+# 先执行npm run dev
+npm run dev
 
-# 再执行npm run dev
+# 再执行npm run gulp
 # 就可以搭建一个随改随变的 mock-server 环境
 # 以后每次当我们需要添加修改mock数据使都不需要重启mock服务
 # 然后在浏览器中打开http://localhost:8081/api/comment/get.action自定义的接口
-npm run dev
+npm run gulp
 ```
 
 原理
